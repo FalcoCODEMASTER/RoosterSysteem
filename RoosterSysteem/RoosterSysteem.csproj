@@ -183,7 +183,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Overzichten.cs" />
+    <Compile Include="Models\testclass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -244,7 +244,8 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Overzichtgegevens.cshtml" />
-    <Content Include="Views\Overzichtgegevens\test.cshtml" />
+    <Content Include="Views\Home\Eigengegevens.cshtml" />
+    <Content Include="Views\Home\Vakkeninzien.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

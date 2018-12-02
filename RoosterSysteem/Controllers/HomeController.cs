@@ -33,5 +33,17 @@ namespace RoosterSysteem.Controllers
 
             return View();
         }
+        public ActionResult Eigengegevens()
+        {
+            ViewBag.Message = "Eigengegevens";
+
+            return View();
+        }
+        public ActionResult Vakkeninzien()
+        {
+            ViewBag.Message = "Vakkeninzien";
+
+            return View();
+        }
     }
 }
