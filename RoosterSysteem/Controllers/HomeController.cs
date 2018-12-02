@@ -26,5 +26,12 @@ namespace RoosterSysteem.Controllers
 
             return View();
         }
+
+        public ActionResult Overzichtgegevens()
+        {
+            ViewBag.Message = "Overzichten";
+
+            return View();
+        }
     }
 }
