@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RoosterSysteem.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -45,5 +46,7 @@ namespace RoosterSysteem.Controllers
 
             return View();
         }
+
+        // GET: testclass/Details/5
     }
 }
